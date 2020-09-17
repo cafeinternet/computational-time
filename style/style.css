@@ -1,0 +1,104 @@
+body{
+   background-color: rgb(250, 250, 250);
+}
+
+@font-face {
+   font-family: Montain;
+   src: url("./GlyphWorld-Mountain.otf");
+ }
+.title{
+   position: fixed;
+   z-index: 99999;
+   filter: drop-shadow(2px 2px 2px #004cff);
+   animation: example 20s linear 2s infinite alternate;
+   transform: skewX(-16deg);
+;}
+ 
+@keyframes example {
+   0% {transform: skewX(-16deg);}
+   100% {transform: skewX(16deg);}
+ }
+
+.main-wrapper{
+   position: fixed;
+bottom: 0;
+left: 3%;
+}
+
+
+
+#shade {
+   z-index: 6665;
+   position: fixed;
+   height: 255px;
+   background-image: linear-gradient(rgba(57, 255, 8, 0.8), rgba(180, 233, 65, 0));
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   pointer-events: none
+ }
+ 
+ #shade2 {
+   z-index: 666;
+   position: fixed;
+   width: 155px;
+   background-image: linear-gradient(to left,  rgba(255, 0, 0, 0),   rgb(56, 0, 241));
+   top: 0px;
+  left: 0;
+   height: 100%;
+   pointer-events: none
+ }
+ 
+
+ div {
+   font-family: myFirstFont;
+ }
+.data-lu {
+   font-size:8vw ;
+   letter-spacing: 0.8px;
+   font-weight: 100;
+   color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: black;
+  opacity: 0.5;
+   
+   bottom:0;
+}
+
+.data-ld {
+	    font-size: 8vw;
+   letter-spacing: 0.8px;
+   font-weight: 100;
+   opacity: 0.5;
+   color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: .3px;
+   -webkit-text-stroke-color: black;
+   
+   bottom:0;
+ 
+}
+
+.data-ru {
+   font-size: 8vw;
+   letter-spacing: 0.8px;
+   font-weight: 100;
+   color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: black;
+  opacity: 0.5;
+   
+   bottom:0;
+}
+.scroll-horizontal {
+   display: inline-block;
+   flex-direction: row;
+   overflow:auto;
+ 
+   
+}
+
+.img{
+   width: 100%;}

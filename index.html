@@ -1,0 +1,220 @@
+<html onclick="CountFun();"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EL TIEMPO COMPUTACIONAL</title>
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script><script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script>
+<script type="text/javascript" src="js/ga.js"></script>
+<script type="text/javascript" src="js/soundmanager2.js"></script>
+<script type="text/javascript" src="js/fireworks.js"></script>
+<link href="style/style.css" rel="stylesheet">
+   <script src="js/jquery.min.js" type="text/javascript">
+   </script>
+   <script src="js/distance.js" type="text/javascript">
+   </script>
+</head>
+
+
+<!-- IF YOU'RE TRYING TO CHEAT AND SEE WHAT HAPPENED AT 1234567890 THEN STICK javascript:partytime(); IN YOUR ADDRESS BAR -->
+
+
+<body>
+	<div id="shade2"></div>
+	<div id="shade"></div>
+ <img class="title" src="img/title.svg" alt="">
+
+
+
+
+ 
+<div class=" img scroll-horizontal">
+	<img class="img"src="https://i.ytimg.com/vi/63N4tvj4FmI/maxresdefault.jpg" alt="">
+	<img class="img"  src="img/ciber1.png" alt="">
+	<img class="img"  src="img/ciber2.png" alt="">
+	<img class="img"  src="img/ciber3.png" alt="">
+	<img class="img"  src="img/cafe.png" alt="">
+
+	<iframe width="100%" height="1000PX" src="https://www.youtube.com/embed/gkkJauSl5JI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<img class="img"  src="img/internet-time.png" alt="">
+	<iframe src="http://slowhotcomputer.com/"
+        width="100%" height="1000px" frameborder="0"
+        sandbox>
+  <p> <a href="http://slowhotcomputer.com/">
+    Fallback link for browsers that don't support iframes
+  </a> </p>
+</iframe>
+<img class="img" src="https://hipertextual.com/files/2014/03/windows_xp_bliss-wide.jpg" alt="">
+	<img class="img"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bliss_location%2C_Sonoma_Valley_in_2006.jpg/1280px-Bliss_location%2C_Sonoma_Valley_in_2006.jpg" alt="">
+<img class="img" src="img/bliss1.png" alt="">
+<img class="img" src="img/bliss2.png" alt="">
+<img class="img" src="img/bliss3.png" alt="">
+<img class="img" src="img/bliss4.png" alt="">
+<img class="img" src="img/bliss5.png" alt="">
+<img class="img" src="img/bliss6.png" alt="">
+<img class="img" src="img/bliss7.png" alt="">
+<img class="img" src="img/bliss8.png" alt="">
+<img class="img" src="img/bliss9.png" alt="">
+<img class="img" src="img/bliss10.png" alt="">
+<img class="img" src="img/bliss11.png" alt="">
+
+<a class="data-lu" href="https://www.reddit.com/r/dustypcs/">dusty</a>
+
+
+	<img class="img" src="img/1.png" alt="">
+	<iframe width="100%" height="1000px" src="https://www.youtube.com/embed/dyOU1FduOQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+	<div class="main-wrapper">	
+			<div  id="main">Unix:<span class="data-lu" id="timer">1600359547</span><br>
+
+		<div class="data-lu">
+		   Tiempo: <span id="seconds">8794</span>s<br>
+		</div>
+		<div class="data-ru">
+		   Distancia: <span id="Distance">0</span><br>
+		</div>
+		<div class="data-ld">
+		   Clicks: <span id="showCount">20</span><br>
+		</div>
+	 </div>
+	 
+
+</div><div id="fireworks-template"><div id="fw" class="firework"></div><div id="fp" class="fireworkParticle"><img src="./Countdown (actually up) to the UNIX Epoch time being 1234567890!_files/particles.gif" alt=""></div></div><div id="fireContainer"></div>
+
+<script src="js/script.js">
+</script>
+
+<script type="text/javascript">
+	var clicks = 0;
+	
+var sec = 0;
+
+function pad(val) {
+  return val > 9 ? val : "0" + val;
+}
+var timer = setInterval(function () {
+  document.getElementById("seconds").innerHTML = pad(++sec);
+}, 10);
+
+
+var cnt=0;
+  function CountFun(){
+   cnt=parseInt(cnt)+parseInt(1);
+   var divData=document.getElementById("showCount");
+   divData.innerHTML=""+cnt +"";
+
+  }
+
+  
+	 
+ </script>
+
+<script>
+
+recount();
+var doparty=false;
+var finish=0;
+var appended=false;
+setInterval("recount()",1000);
+
+function recount(){
+
+	var d=new Date();
+	var t=d.getTime();
+	var o=t+"";
+	var amn=60;
+	var ahr=amn*60;
+	var ady=ahr*24;
+	var awk=ady*7;
+	var diff=1234567890-o.substring(0,10);
+	var scs=diff;
+	var mns=(diff-(diff%amn))/amn;
+	var hrs=(diff-(diff%ahr))/ahr;
+	var dys=(diff-(diff%ady))/ady;
+	var wks=(diff-(diff%awk))/awk;
+	dys=dys%7;
+	hrs=hrs%24;
+	mns=mns%60;
+	scs=scs%60;
+
+	var thetext ="";
+
+	if (dys>0){
+		thetext=dys+" day";
+		if(dys!=1){thetext+="s";}
+		thetext+=", ";
+	}
+
+	if (hrs>0){
+		thetext+=hrs+" hour";
+		if(hrs!=1){thetext+="s";}
+		thetext+=", ";
+	}
+
+	if (mns>0){
+		thetext+=mns+" minute";
+		if(mns!=1){thetext+="s";}
+		thetext+= " and ";
+	}
+	thetext+=scs+" second";
+	if(scs!=1){thetext+="s";}
+
+	var tweeturl="http://twitter.com/home?status=Only "+thetext+" till the unix epoch time reaches 1234567890 http://coolepochcountdown.com";
+
+	$("#timer").html(o.substring(0,10));
+	$('#countdown').text(thetext);
+
+	if(o.substring(0,10)==1234567890){partytime();}
+	if(o.substring(0,10)<1234567890){
+		document.title=thetext + " to go...";
+		$("#tweet").attr("href",tweeturl);
+	}
+
+
+}
+
+
+
+</script>
+
+<div id="sm2-container" class="movieContainer" style="position: absolute; width: 1px; height: 1px; top: -999px; left: -999px;"><embed name="sm2movie" id="sm2movie" src="/soundmanager2.swf" width="100%" height="100%" quality="high" allowscriptaccess="always" bgcolor="#ffffff" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode=""></div></body></html>
